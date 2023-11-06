@@ -84,7 +84,7 @@ since go is statically types language so we need to tell go what type is the dat
 *But go can imply based on the value assigned to it.*
 
 ye vala cha hai :: 
-~var something = "otherthing" >>> something := "otherthing"~
+_var something = "otherthing" >>> something := "otherthing"_
 
 
 
