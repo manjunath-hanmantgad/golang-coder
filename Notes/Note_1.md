@@ -85,6 +85,8 @@ since go is statically types language so we need to tell go what type is the dat
 
 ye vala cha hai :: 
 _var something = "otherthing" >>> something := "otherthing"_
+but ye sirf var ke sath chalega and not with const.
+and also ismai hum kuch 'type' declare nhi kr sakte.
 
 
 
