@@ -60,3 +60,35 @@ In Go, both `print` and `println` are functions used to output text, but there a
 In general, it is recommended to use `fmt.Print` and `fmt.Println` functions from the `fmt` package instead of `print` and `println` for more flexibility and formatting options. The `fmt` package provides functions for formatted I/O operations, allowing you to format strings, numbers, and other data types according to your needs.
 
 
+=========================================
+
+*Variables and Constants*
+suppose there are names of users and we want to write their names like : thank you for booking ticket x , see you around x , here is tyour pass x..
+updates everytime.
+In golang , we get message saying that we defined a variabble but did not use it. ye hai kyunki dead code na ho aage chalke.
+constant apna immutable hai , ek bar assign ki dobara change nhi hoga.
+
+*Output ko format kaise krnma hai ?*  ---> using 'printf'
+
+
+======================================
+
+*Data types*
+- strings
+- integers
+- float
+- booleans
+- map
+- arrays
+since go is statically types language so we need to tell go what type is the data of.
+*But go can imply based on the value assigned to it.*
+
+
+
+
+
+
+
+
+
+
