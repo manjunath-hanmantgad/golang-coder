@@ -26,6 +26,37 @@ To do declaration : it is like an entry point of our application , we need our m
 *A program can have only 1 'main function' as only one entrypoint is possible.*
 'we have to import the pckages in go implicitly.'
 
+** diiference in print and println
+In Go, both `print` and `println` are functions used to output text, but there are some differences between them:
 
+1. **`print` function:**
+   - The `print` function is used to print the arguments passed to it without any separator between the arguments.
+   - Example:
+     ```go
+     package main
+     
+     import "fmt"
+     
+     func main() {
+         print("Hello", "World") // Output: HelloWorld
+     }
+     ```
+
+2. **`println` function:**
+   - The `println` function is used to print the arguments passed to it with a space between the arguments and a newline character at the end.
+   - Example:
+     ```go
+     package main
+     
+     import "fmt"
+     
+     func main() {
+         println("Hello", "World")
+         // Output:
+         // Hello World
+     }
+     ```
+
+In general, it is recommended to use `fmt.Print` and `fmt.Println` functions from the `fmt` package instead of `print` and `println` for more flexibility and formatting options. The `fmt` package provides functions for formatted I/O operations, allowing you to format strings, numbers, and other data types according to your needs.
 
 
