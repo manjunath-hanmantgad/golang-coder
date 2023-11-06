@@ -83,6 +83,9 @@ constant apna immutable hai , ek bar assign ki dobara change nhi hoga.
 since go is statically types language so we need to tell go what type is the data of.
 *But go can imply based on the value assigned to it.*
 
+ye vala cha hai :: 
+~var something = "otherthing" >>> something := "otherthing"~
+
 
 
 
